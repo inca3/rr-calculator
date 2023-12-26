@@ -1,8 +1,10 @@
-# React + Vite
+# Easy RR Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## You can easily calculate your risk/reward with this tool.
 
-Currently, two official plugins are available:
+Set your risk, leverage, entry and stop then tool will calculate your position size.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Example](src/assets/rrcalculator.jpg)
+
+For perpetual trades, the most important thing is knowing and setting how much you can afford to lose per trade. This tool prioritizes this.
+In this image, you are risking $100 for this trade. You will lose $100 if your stop loss gets triggered. If price hits your TP, you will win ($100 \* YourRR) amount.
